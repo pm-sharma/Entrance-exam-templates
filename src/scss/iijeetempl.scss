@@ -1,0 +1,120 @@
+
+.clientLogo{
+    background-color: #327AB7;
+}
+.inlineBlock{
+    display: inline-block;
+}
+    .inlineBlockSub{
+        display: inline-block;
+    }
+
+
+.tempBor{
+    border: 1px solid #f0f0f0;
+}
+.marks{
+    border: 1px solid black;
+    border-radius: 5px;
+    // padding: 10px
+    padding-left: 10px;
+    padding-right: 14px;
+}
+.fullScreen{
+    background-color: rgb(147, 182, 235);
+    
+}
+.fsi{
+    padding-left: 10px;
+    padding-right: 14px;
+    height: 30px
+}
+.tabButtons{
+    background-color: aliceblue;
+    height: auto;
+    min-height: 50px;
+    bottom: 0;
+}
+
+.subjectButton{
+    width: 90px;
+    height: 50px;
+    text-align: center;
+}
+
+
+.activeButtonColor{
+    background-color: #03c0e0;
+    color: white
+}
+.inactiveColor{
+    background-color: #cccccc;
+    border: 0.3px solid #fff;
+}
+
+.listButton{
+    background-color: #cccccc;
+    width: 29px;
+    height: 29px;
+    // padding: 4px;
+    margin: 10px;
+    color: white;
+    border: 0.5px solid #181717f0;
+}
+.listDiv{
+    background-color: aliceblue;
+    padding: 20px
+}
+li{
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 29px;
+    vertical-align: middle;
+    border-radius: 5px;
+    line-height: 29px;
+}
+
+.answered{
+    background-color: green;
+    position: relative;
+    clip-path: polygon(26% 0, 75% 0, 100% 28%, 100% 100%, 0 100%, 0 30%);
+}
+
+
+.notAns{
+    background-color: red;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 78% 100%, 25% 100%, 0 73%);
+
+}
+.marked{
+    background-color: purple;
+    border-radius: 45%;
+}
+// .visited{
+
+// }
+// .notVisited{
+
+// }
+// .markReviewed{
+
+// }
+
+.actions{
+    background-color: rgb(147, 182, 235);
+    display: inline-block;
+    width: 45%;
+    margin:5px;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+}
+
+.submitDiv{
+    background-color: green;
+    width: 94%;
+    text-align: center;
+    margin:5px;
+}
