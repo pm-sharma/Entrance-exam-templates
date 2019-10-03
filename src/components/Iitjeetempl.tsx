@@ -12,7 +12,7 @@ export default class Iitjeetempl extends Component {
             lineHeight: '30px',
         };
         return (
-            <div>
+            <div className="mainDiv">
 
                 <div className="topBar">
                     <div className="clientLogo">
