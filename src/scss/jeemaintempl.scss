@@ -1,6 +1,6 @@
 
 .clientLogo{
-    background-color: #327AB7;
+    // background-color: #327AB7;
 }
 .inlineBlock{
     display: inline-block;
@@ -22,7 +22,6 @@
 }
 .fullScreen{
     background-color: rgb(147, 182, 235);
-    border-radius: 5px;
     
 }
 .fsi{
@@ -55,27 +54,26 @@
 
 .listButton{
     background-color: #cccccc;
-    width: 32px;
-    height: 34px;
+    width: 29px;
+    height: 29px;
     // padding: 4px;
     margin: 10px;
     color: white;
     border: 0.5px solid #181717f0;
 }
 .listDiv{
-    // background-color: aliceblue;
-    background-color: #E3ECFB;
-    padding: 10px;
+    background-color: aliceblue;
+    padding: 20px
 }
 li{
     text-align: center;
     cursor: pointer;
     font-size: 14px;
     font-weight: bold;
-    height: 34px;
+    height: 29px;
     vertical-align: middle;
     border-radius: 5px;
-    line-height: 34px;
+    line-height: 29px;
 }
 
 .answered{
@@ -87,7 +85,7 @@ li{
 
 .notAns{
     background-color: red;
-    clip-path: polygon(100% 0, 100% 74%, 69% 100%, 31% 100%, 0 74%, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 78% 100%, 25% 100%, 0 73%);
 
 }
 .marked{
@@ -129,49 +127,45 @@ li{
 }
 
 
-
-@media (min-width: 780px){
-    .marksTab{
-        height: 46px;
-    }
-}
-
-.directions{
-    padding: 15px;
-    border-right: 1px solid rgb(195, 195, 195);
-    justify-content: center;
-}
-.ptagdir{
+.profiledetail {
+    float: left;
+    padding-left: 15px;
     font-size: 14px;
-    text-align: justify;
+    font-family: Roboto;
+    width: 75%;
+    margin: 5px 0 0;
+}
 
+.name_sctn {
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+span.txt_namehdng {
+    float: left;
+    font-family: Roboto;
+    color: #555;
+    width: 43%;
+}
+span.name_txt {
+    font-weight: bold;
+    color: #f7931e;
+}
+.time-started {
+    background: #0098DA;
+    color: #fff!important;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+.profileImg{
+    float: left;
+    // width: 72px;
+    // height: 68px;
+    border: 2px solid #666;
 }
 p{
     font-size: 14px;
     text-align: justify;
 
-}
-
-.questions{
-    padding: 18px;
-    justify-content: center;
-}
-
-.questionNo{
-    background-color: rgb(186, 208, 240);
-    width: 100%;
-    color: black;
-    padding : 5px;
-}
-
-.ptagans{
-    text-align: center;
-}
-
-.labelDiv{
-    width : 100%; border : 2px solid black; position : relativeå;
-}
-
-.labeldivInside{
-    transform : translateY(-50%); position: absolute;top : 0; left :1%; width :50px;background-color : white; text-align : center;
 }

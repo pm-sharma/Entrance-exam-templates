@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 import { Row, Col, Icon, Radio, Input } from 'antd';
 // const userIcon = require('../../public/logo192.png');
 
-import "../scss/iijeetempl.scss";
-export default class Iitjeetempl extends Component {
+import "../scss/jeemaintempl.scss";
+export default class Jeemaintempl extends Component {
     render() {
         const radioStyle = {
             display: 'block',
@@ -16,12 +16,31 @@ export default class Iitjeetempl extends Component {
 
                 <div className="topBar">
                     <div className="clientLogo">
-                        <div style={{ padding: "10px", width: "100%" }} className="inlineBlock">
+                        <div style={{ padding: "20px 0px 10px 170px", width: "100%" }} className="inlineBlock">
                             <div className="inlineBlock">
-                                <h2 style={{ color: "white" }}>CLIENT LOGO</h2>
+                                <h1 style={{ color: "red" }}>CLIENT LOGO</h1>
                             </div>
                             <div className="inlineBlock" style={{ marginRight: "auto", float: "right" }}>
-                                <h2 style={{ color: "white" }}>CLIENT LOGO</h2>
+                                <div className="inlineBlock profileImg">
+                                    <Icon style={{ fontSize: "80px" }} type="user" />
+                                </div>
+                                <div className="inlineBlock">
+                                    {/* <h2 style={{ color: "white",lineHeight: "60px" }}>CLIENT LOGO</h2> */}
+                                    <div className="profiledetail">
+                                        <div className="name_sctn">
+                                            <span className="txt_namehdng">Candidate Name</span>
+                                            <span className="name_txt">: [Your Name]</span>
+                                        </div>
+                                        <div className="name_sctn">
+                                            <span className="txt_namehdng">Subject Name</span>
+                                            <span className="name_txt">: [Test Practice]</span>
+                                        </div>
+                                        <div className="name_sctn">
+                                            <span className="txt_namehdng">Candidate Name</span>
+                                            <span className="name_txt">: <span className="timer-title time-started">01:54:05</span></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -74,7 +93,7 @@ export default class Iitjeetempl extends Component {
                                         </p>
                                     </div>
                                 </div>
-                                <div className="inlineBlock" style={{ marginRight: "auto", right: "0",position: "absolute", height: "30px", padding: "10px" }}>
+                                <div className="inlineBlock" style={{ marginRight: "auto", right: "0", position: "absolute", height: "30px", padding: "10px" }}>
                                     <div className="" style={{ height: "30px" }}>
                                         <div className="inlineBlock fullScreen fsi">
                                             <p style={{ lineHeight: "30px" }}><b>View Full Screen</b></p>
@@ -149,7 +168,7 @@ export default class Iitjeetempl extends Component {
                                 </div>
                             </div>
                             <div className="listDiv">
-                                <p style={{textAlign: "center"}}><b>Question Plate</b></p>
+                                <p style={{ textAlign: "center" }}><b>Question Plate</b></p>
                                 <ul style={{ padding: "5px" }}>
                                     <li className="inlineBlock listButton">
                                         1
@@ -246,7 +265,7 @@ export default class Iitjeetempl extends Component {
                                     </li>
                                 </ul>
                                 <p><b>Legend:</b></p>
-                                
+
                                 <div>
                                     <div className="inlineBlock">
                                         <p>Answered</p>
@@ -256,7 +275,7 @@ export default class Iitjeetempl extends Component {
                                     </div>
                                 </div>
 
-                                
+
                                 <div>
                                     <div className="actions">
                                         <p>View Qp</p>
@@ -266,7 +285,7 @@ export default class Iitjeetempl extends Component {
                                     </div>
                                 </div>
                                 <div className="submitDiv">
-                                    <p style={{color: "white"}}><b>Submit</b></p>
+                                    <p style={{ color: "white" }}><b>Submit</b></p>
                                 </div>
                             </div>
                         </Col>
