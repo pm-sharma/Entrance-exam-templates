@@ -16,13 +16,13 @@ export default class Jeemaintempl extends Component {
 
                 <div className="topBar">
                     <div className="clientLogo">
-                        <div style={{ padding: "20px 0px 10px 170px", width: "100%" }} className="inlineBlock">
+                        <div style={{ padding: "2vh 0px 1.8vh 16vw", width: "100%" }} className="inlineBlock">
                             <div className="inlineBlock">
                                 <h1 style={{ color: "red" }}>CLIENT LOGO</h1>
                             </div>
                             <div className="inlineBlock" style={{ marginRight: "auto", float: "right" }}>
-                                <div className="inlineBlock profileImg">
-                                    <Icon style={{ fontSize: "80px" }} type="user" />
+                                <div style={{ marginTop: "5px" }} className="inlineBlock profileImg">
+                                    <Icon style={{ fontSize: "76px" }} type="user" />
                                 </div>
                                 <div className="inlineBlock">
                                     {/* <h2 style={{ color: "white",lineHeight: "60px" }}>CLIENT LOGO</h2> */}
@@ -46,66 +46,51 @@ export default class Jeemaintempl extends Component {
                     </div>
                 </div>
 
+                <div className="topBar2">
+                    <div className="clientLogo">
+                        <div style={{ padding: "12px 280px 8px 170px", width: "100%" }} className="inlineBlock">
+                            <div className="inlineBlock">
+                                {/* <h1 style={{ color: "red" }}>CLIENT LOGO</h1> */}
+
+                                <div className="subtabs">
+                                    <div className="subname">
+                                        <h2>JEE MAIN</h2>
+                                    </div>
+                                    <div className="subname" style={{ backgroundColor: "#0098DA" }}>
+                                        <h2>PHTSICS</h2>
+                                    </div>
+                                    <div className="subname" style={{ backgroundColor: "#0098DA" }}>
+                                        <h2>CHEMISTRY</h2>
+                                    </div>
+                                    <div className="subname" style={{ backgroundColor: "#0098DA" }}>
+                                        <h2>MATHEMATICS</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="inlineBlock" style={{ marginRight: "auto", float: "right" }}>
+                                <div style={{ marginTop: "5px" }} className="inlineBlock profileImg">
+                                    <p style={{ color: "white" }}>
+                                        Paper Language:
+                                    </p>
+                                    <select style={{ marginTop: "-20px" }}>
+                                        <option value="en">English</option>
+                                        <option value="in">Hindi</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div style={{ padding: "10px" }}>
                     <Row>
-                        <Col className="tempBor" lg={18} md={18} sm={24}>
-                            <div style={{ padding: "10px", width: "100%" }} className="inlineBlock">
-                                <div className="inlineBlock">
-                                    <h2>EASY: THINK EXAM3</h2>
-                                </div>
-                                <div className="inlineBlock" style={{ marginRight: "auto", float: "right", height: "30px" }}>
-                                    <div className="marks" style={{ height: "25px" }}>
-                                        <div className="inlineBlock">
-                                            <p><b>Maximum Mark: </b><b style={{ color: "green" }}>1</b></p>
-                                        </div>
-                                        <div style={{ marginLeft: "14px" }} className="inlineBlock">
-                                            <p><b>Negative Mark: </b><b style={{ color: "red" }}>0</b></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div style={{ paddingLeft: "10px", paddingRight: "10px", width: "100%" }} className="inlineBlock tabButtons">
-                                <div className="inlineBlock">
-                                    <div style={{ width: "40px", textAlign: "center", height: "50px", backgroundColor: "#0d0d0d" }} className="inlineBlock">
-                                        <p style={{ lineHeight: "50px", color: "white" }}>
-                                            Q.1
-                                        </p>
-                                    </div>
-                                    <div className="subjectButton activeButtonColor inlineBlockSub">
-                                        <p style={{ lineHeight: "50px" }}>
-                                            Physics
-                                        </p>
-                                    </div>
-                                    <div className="subjectButton inactiveColor inlineBlockSub">
-                                        <p style={{ lineHeight: "50px" }}>
-                                            Chemistry
-                                        </p>
-                                    </div>
-                                    <div className="subjectButton inactiveColor inlineBlockSub">
-                                        <p style={{ lineHeight: "50px" }}>
-                                            Mathematics
-                                        </p>
-                                    </div>
-                                    <div className="subjectButton inactiveColor inlineBlockSub">
-                                        <p style={{ lineHeight: "50px" }}>
-                                            Biology
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="inlineBlock" style={{ marginRight: "auto", right: "0", position: "absolute", height: "30px", padding: "10px" }}>
-                                    <div className="" style={{ height: "30px" }}>
-                                        <div className="inlineBlock fullScreen fsi">
-                                            <p style={{ lineHeight: "30px" }}><b>View Full Screen</b></p>
-                                        </div>
-                                        <div style={{ marginLeft: "14px" }} className="inlineBlock">
-                                            <p>Calculater</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div style={{ padding: "10px", width: "100%" }} className="inlineBlock">
+                        <Col style={{ padding: "14px 80px 10px 170px", width: "70%" }} className="tempBor" lg={10} md={10} sm={22}>
+                            <div style={{border : "1px solid #f0f0f0",padding : "5px",height: "400px",overflow: "scroll"}}>
+                            <br></br>
+                            <h3>Question 1:</h3>
+                            <hr></hr>
+                            <div style={{ padding: "10px", width: "80%" }} className="inlineBlock">
                                 <div className="inlineBlock">
                                     <p style={{ fontSize: "16px" }}> 1. Did you enjoy this experience? Yes Not Sure The time allotted for the test was Sufficient Not Sufficie Not Sure The time allotted for the test was Sufficient Not Sufficie</p>
                                 </div>
@@ -122,35 +107,41 @@ export default class Jeemaintempl extends Component {
                                 </div>
                                 <div>
                                     <div>
-                                        <Radio.Group>
-                                            <Radio style={radioStyle} value={1}>
-                                                5%
-                                        </Radio>
-                                            <Radio style={radioStyle} value={2}>
-                                                10%
-                                        </Radio>
-                                            <Radio style={radioStyle} value={3}>
-                                                15%
-                                        </Radio>
-                                            <Radio style={radioStyle} value={4}>
-                                                20%
-                                        </Radio>
+                                        <Radio.Group style={{padding : "20px"}} name="radiogroup" defaultValue={1}>
+                                            <Radio style={{padding : "auto 20px auto auto"}} value={1}>1) hello world</Radio>
+                                            <Radio style={{padding : "auto 20px auto auto"}} value={2}>2) B hello world</Radio>
+                                            <Radio style={{padding : "auto 20px auto auto"}} value={3}>3) C hello world</Radio>
+                                            <Radio style={{padding : "auto 20px auto auto"}} value={4}>4) D hello world</Radio>
                                         </Radio.Group>
                                     </div>
                                 </div>
                             </div>
-
-                            <div className="topBar">
+                            </div>
+                            <div className="subtabs">
+                                    <div className="subname" style={{backgroundColor: "#5CB85C" }}>
+                                        <h4>SAVE & NEXT</h4>
+                                    </div>
+                                    <div className="subname" style={{ backgroundColor: "#F0AD4E"  }}>
+                                        <h4>SAVE & MARK FOR REVIEW</h4>
+                                    </div>
+                                    <div className="subname" style={{ backgroundColor: "#FFFFFF",border : "1px solid #f0f0f0", }}>
+                                        <h4 style={{color: "black"}}>CLEAR RESPONSE</h4>
+                                    </div>
+                                    <div className="subname" style={{ backgroundColor: "#0098DA"  }}>
+                                        <h4>MARK FOR REVIEW & NEXT</h4>
+                                    </div>
+                                </div>
+                            <div className="bottomBar">
                                 <div className="clientLogo">
                                     <div style={{ padding: "10px", width: "100%" }} className="inlineBlock">
-                                        <div className="inlineBlock fullScreen fsi" style={{ marginRight: "10px" }}>
-                                            <p style={{ lineHeight: "30px" }}><b>Marked For Review</b></p>
+                                        <div className="inlineBlock fullScreen fsi" style={{ marginRight: "10px",backgroundColor: "#FFFFFF" }}>
+                                            <p style={{ lineHeight: "30px" }}><b> {"<<"} Back </b></p>
                                         </div>
-                                        <div className="inlineBlock fullScreen fsi">
-                                            <p style={{ lineHeight: "30px", }}><b>Clear Response</b></p>
+                                        <div style={{backgroundColor: "#FFFFFF"}} className="inlineBlock fullScreen fsi">
+                                            <p style={{ lineHeight: "30px", }}><b> Next {">>"} </b></p>
                                         </div>
-                                        <div className="inlineBlock fullScreen fsi" style={{ marginRight: "auto", float: "right" }}>
-                                            <p style={{ lineHeight: "30px" }}><b>Save & Next</b></p>
+                                        <div className="inlineBlock fullScreen fsi" style={{ marginRight: "auto", float: "right", backgroundColor: "#F0AD4E"  }}>
+                                            <p style={{ lineHeight: "30px",color: "white" }}><b>SUBMIT</b></p>
                                         </div>
                                     </div>
                                 </div>
@@ -158,18 +149,26 @@ export default class Jeemaintempl extends Component {
 
                         </Col>
 
-                        <Col style={{ padding: "10px" }} className="tempBor" lg={6} md={18} sm={24}>
+                        <Col style={{ padding: "10px" }} className="tempBor" lg={6} md={6} sm={22}>
                             <div>
-                                <div className="inlineBlock">
+                                {/* <div className="inlineBlock">
                                     <Icon style={{ fontSize: "60px" }} type="user" />
                                 </div>
                                 <div className="inlineBlock" style={{ marginLeft: "20px" }}>
                                     <p style={{ lineHeight: "60px", fontSize: "16px" }}>Time Left: 02:01:20</p>
-                                </div>
+                                </div> */}
+                                <div>
+                                        <div className="inlineBlock">
+                                            <p><img style={{ height: "120px", width: "auto", maxWidth: "295px" }} src={require('../assests/ss2.png')} />
+                                            </p>
+                                        </div>
+                                        <div className="inlineBlock">
+                                        </div>
+                                    </div>
                             </div>
                             <div className="listDiv">
-                                <p style={{ textAlign: "center" }}><b>Question Plate</b></p>
-                                <ul style={{ padding: "5px" }}>
+                                {/* <p style={{ textAlign: "center" }}><b>Question Plate</b></p> */}
+                                <ul style={{ padding: "5px",height: "400px",overflow: "scroll" }}>
                                     <li className="inlineBlock listButton">
                                         1
                                     </li>
@@ -222,71 +221,87 @@ export default class Jeemaintempl extends Component {
                                         17
                                     </li>
                                     <li className="inlineBlock listButton">
-                                        18
+                                        9
+                                    </li>
+                                    <li className="inlineBlock listButton markReviewed">
+                                        10
                                     </li>
                                     <li className="inlineBlock listButton">
-                                        19
+                                        11
                                     </li>
                                     <li className="inlineBlock listButton">
-                                        20
+                                        12
                                     </li>
                                     <li className="inlineBlock listButton">
-                                        21
+                                        13
                                     </li>
                                     <li className="inlineBlock listButton">
-                                        22
+                                        14
                                     </li>
                                     <li className="inlineBlock listButton">
-                                        23
+                                        15
                                     </li>
                                     <li className="inlineBlock listButton">
-                                        24
+                                        16
                                     </li>
                                     <li className="inlineBlock listButton">
-                                        25
+                                        17
+                                    </li><li className="inlineBlock listButton">
+                                        9
+                                    </li>
+                                    <li className="inlineBlock listButton markReviewed">
+                                        10
                                     </li>
                                     <li className="inlineBlock listButton">
-                                        26
+                                        11
                                     </li>
                                     <li className="inlineBlock listButton">
-                                        27
+                                        12
                                     </li>
                                     <li className="inlineBlock listButton">
-                                        28
+                                        13
                                     </li>
                                     <li className="inlineBlock listButton">
-                                        29
+                                        14
                                     </li>
                                     <li className="inlineBlock listButton">
-                                        30
+                                        15
                                     </li>
                                     <li className="inlineBlock listButton">
-                                        31
+                                        16
+                                    </li>
+                                    <li className="inlineBlock listButton">
+                                        17
+                                    </li>
+                                    <li className="inlineBlock listButton">
+                                        9
+                                    </li>
+                                    <li className="inlineBlock listButton markReviewed">
+                                        10
+                                    </li>
+                                    <li className="inlineBlock listButton">
+                                        11
+                                    </li>
+                                    <li className="inlineBlock listButton">
+                                        12
+                                    </li>
+                                    <li className="inlineBlock listButton">
+                                        13
+                                    </li>
+                                    <li className="inlineBlock listButton">
+                                        14
+                                    </li>
+                                    <li className="inlineBlock listButton">
+                                        15
+                                    </li>
+                                    <li className="inlineBlock listButton">
+                                        16
+                                    </li>
+                                    <li className="inlineBlock listButton">
+                                        17
                                     </li>
                                 </ul>
-                                <p><b>Legend:</b></p>
-
-                                <div>
-                                    <div className="inlineBlock">
-                                        <p>Answered</p>
-                                    </div>
-                                    <div className="inlineBlock">
-
-                                    </div>
-                                </div>
-
-
-                                <div>
-                                    <div className="actions">
-                                        <p>View Qp</p>
-                                    </div>
-                                    <div className="actions">
-                                        <p>Instructions</p>
-                                    </div>
-                                </div>
-                                <div className="submitDiv">
-                                    <p style={{ color: "white" }}><b>Submit</b></p>
-                                </div>
+                                
                             </div>
                         </Col>
                     </Row>

@@ -21,7 +21,7 @@
     padding-right: 14px;
 }
 .fullScreen{
-    background-color: rgb(147, 182, 235);
+    // background-color: rgb(147, 182, 235);
     
 }
 .fsi{
@@ -59,7 +59,7 @@
     // padding: 4px;
     margin: 10px;
     color: white;
-    border: 0.5px solid #181717f0;
+    border: 0.5px solid #8f8f8ff0;
 }
 .listDiv{
     background-color: aliceblue;
@@ -72,25 +72,29 @@ li{
     font-weight: bold;
     height: 29px;
     vertical-align: middle;
-    border-radius: 5px;
+    border-radius: 1px;
     line-height: 29px;
 }
 
 .answered{
     background-color: green;
     position: relative;
-    clip-path: polygon(26% 0, 75% 0, 100% 28%, 100% 100%, 0 100%, 0 30%);
+    // clip-path: polygon(26% 0, 75% 0, 100% 28%, 100% 100%, 0 100%, 0 30%);
+    clip-path: polygon(0 0, 100% 14%, 100% 86%, 0% 100%);
+
 }
 
 
 .notAns{
     background-color: red;
-    clip-path: polygon(0 0, 100% 0, 100% 70%, 78% 100%, 25% 100%, 0 73%);
+    // clip-path: polygon(0 0, 100% 0, 100% 70%, 78% 100%, 25% 100%, 0 73%);
+    clip-path: polygon(0 0, 100% 14%, 100% 86%, 0% 100%);
+
 
 }
 .marked{
     background-color: purple;
-    border-radius: 45%;
+    border-radius: 40%;
 }
 // .visited{
 
@@ -131,7 +135,6 @@ li{
     float: left;
     padding-left: 15px;
     font-size: 14px;
-    font-family: Roboto;
     width: 75%;
     margin: 5px 0 0;
 }
@@ -144,7 +147,7 @@ li{
 
 span.txt_namehdng {
     float: left;
-    font-family: Roboto;
+    // font-family: Roboto;
     color: #555;
     width: 43%;
 }
@@ -162,10 +165,66 @@ span.name_txt {
     float: left;
     // width: 72px;
     // height: 68px;
-    border: 2px solid #666;
+    // border: 2px solid #666;
+    // border-radius: 15px
 }
 p{
     font-size: 14px;
     text-align: justify;
 
+}
+
+.topBar2{
+        background-color: #f7931e;
+        padding: 1px 0;
+        display: inline-block;
+        width: 100%;   
+}
+
+select {
+    width: 120px;
+    // margin: 10px;
+    height: 30px;
+    outline: none;
+}
+
+.subtabs{
+    padding: 10px
+}
+.subname {
+    float: left;
+    width: auto;
+    padding: 10px;
+    color: white;
+    font-weight: 800;
+    line-height: 20px;
+    margin: 3px;
+    height: 40px; /* Should be removed. Only for demonstration */
+  }
+  .subname{
+      h2{
+          color: white;
+      }
+  }
+  /* Clear floats after the columns */
+  .subtabs:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .subname {
+      width: 100%;
+    }
+  }
+
+h4{
+    color: #FFFFFF
+}
+
+.bottomBar{
+    background-color: #f0f0f0;
+    border-top: 1px solid rgb(168, 168, 168);
 }
