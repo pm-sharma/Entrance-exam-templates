@@ -92,7 +92,7 @@ export default class Jeemaintempl extends Component {
                             <hr></hr>
                             <div style={{ padding: "10px", width: "80%" }} className="inlineBlock">
                                 <div className="inlineBlock">
-                                    <p style={{ fontSize: "16px" }}> 1. Did you enjoy this experience? Yes Not Sure The time allotted for the test was Sufficient Not Sufficie Not Sure The time allotted for the test was Sufficient Not Sufficie</p>
+                                    <p style={{ fontSize: "16px",textAlign: "left" }}> 1. Did you enjoy this experience? Yes Not Sure The time allotted for the test was Sufficient Not Sufficie Not Sure The time allotted for the test was Sufficient Not Sufficie</p>
                                 </div>
                                 <div className="inlineBlock">
                                     <div>
@@ -103,7 +103,7 @@ export default class Jeemaintempl extends Component {
 
                             <div style={{ padding: "10px", width: "100%", marginBottom: "30px" }} className="inlineBlock">
                                 <div>
-                                    <p style={{ fontSize: "16px" }}> <b>{" "}Options</b></p>
+                                    <p style={{ fontSize: "16px",textAlign: "justify"  }}> <b>{" "}Options</b></p>
                                 </div>
                                 <div>
                                     <div>
@@ -168,7 +168,7 @@ export default class Jeemaintempl extends Component {
                             </div>
                             <div className="listDiv">
                                 {/* <p style={{ textAlign: "center" }}><b>Question Plate</b></p> */}
-                                <ul style={{ padding: "5px",height: "400px",overflow: "scroll" }}>
+                                <ul style={{ padding: "5px",height: "300px",overflow: "scroll" }}>
                                     <li className="inlineBlock listButton">
                                         1
                                     </li>
