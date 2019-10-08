@@ -1,1 +1,1 @@
-# IIT-JEE-Templates
+# Entrance-Exam-Templates for Kota Institutes
